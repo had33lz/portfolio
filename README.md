@@ -39,7 +39,7 @@ The **background dynamically changes** with the time of day:
 ## 🔧 Run Locally
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR-USERNAME/portfolio.git
+git clone https://github.com/had33lz/portfolio.git
 
 # Open the folder
 cd portfolio
