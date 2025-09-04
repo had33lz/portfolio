@@ -1,51 +1,12 @@
-# portfolio
-# 🌆 3D Light Pole Portfolio
+# React + Vite
 
-A creative, interactive portfolio built with **React + Three.js**, deployed with **GitHub Pages**.  
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## ✨ Concept
-The portfolio is presented as a **street light pole in 3D**.  
-- A **real-time analog clock** sits on top.  
-- **Directional glowing signs** hang from the pole, linking to sections like:
-  - About
-  - Skills
-  - Projects
-  - Education
-  - Contact & Links  
+Currently, two official plugins are available:
 
-The **background dynamically changes** with the time of day:
-- 🌅 Morning: pastel sky with golden glow  
-- 🌞 Afternoon: bright sky, sharp shadows  
-- 🌇 Evening: warm gradient sunset  
-- 🌌 Night: navy sky with stars + glowing lamp  
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## 🎮 Interactivity
-- Hover over a sign → it glows & wiggles.  
-- Click → camera pans to that section.  
-- Subtle **3D parallax** on pole & signs with mouse movement.  
-- Ambient details: birds in morning, neon flickers at night, stars twinkling.  
+## Expanding the ESLint configuration
 
-## 🚀 Tech Stack
-- [React](https://reactjs.org/)  
-- [Three.js](https://threejs.org/) via [@react-three/fiber](https://github.com/pmndrs/react-three-fiber)  
-- [Vite](https://vitejs.dev/) for fast dev  
-- GitHub Pages for hosting  
-
-## 📂 Structure
-- `src/` → main React + Three.js components  
-- `public/` → static assets  
-- `index.html` → entry point  
-
-## 🔧 Run Locally
-```bash
-# Clone the repo
-git clone https://github.com/had33lz/portfolio.git
-
-# Open the folder
-cd portfolio
-
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
